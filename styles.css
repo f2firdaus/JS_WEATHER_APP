@@ -1,0 +1,70 @@
+/* Write your desired css here */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: linear-gradient(to left, rgb(60, 0, 255) , rgb(0, 225, 255));
+    /* background:linear-gradient(to right rgb(108, 6, 6),blue); */
+}
+
+#name, h1{
+    text-align: center !important;
+    color: white; 
+    font-size: 2.8rem;
+}
+#weather-container{
+    margin: 10px auto;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: rgb(25, 162, 178); */
+    width: 50%;
+    border-radius: 20px;
+    height: 15rem;
+}
+#location-form{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+#location-input{
+    width: 18em;
+    margin: 10px 2px;
+    padding: 4px;
+    /* height: 2.5rem; */
+    font-size: 1.5rem;
+    border-radius: 6px;
+    /* background-color: red; */
+    outline: none;
+    border: none;
+}
+button{
+    width: 15rem;
+    height: 2.4rem;
+    border: none;
+    border-radius:6px;
+    margin-right: 20px;
+    color: white;
+    font-weight: 600;
+    background-color:orangered;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#weather-data{
+    text-align: center;
+    padding: 12px;
+    font-size: 1.5rem;
+    color: white;
+
+    padding: 1em;
+}
